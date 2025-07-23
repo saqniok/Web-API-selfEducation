@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "CityInfo.API.Controllers.CitiesController",
+    "Method": "GetCities",
+    "RelativePath": "api/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

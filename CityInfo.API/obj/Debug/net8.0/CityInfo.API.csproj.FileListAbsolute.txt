@@ -26,8 +26,6 @@ C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\De
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.pdb
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.genruntimeconfig.cache
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\ref\CityInfo.API.dll
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.CityInfo.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CityInfo.API.props
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CityInfo.API.props
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CityInfo.API.props
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\bin\Debug\net8.0\CityInfo.API.staticwebassets.endpoints.json
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
