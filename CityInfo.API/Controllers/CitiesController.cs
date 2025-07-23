@@ -10,13 +10,15 @@ namespace CityInfo.API.Controllers
         public JsonResult GetCities()
         {
 
+            return new JsonResult(CitiesDataStore.Current.Cities);
+        }
+
+        [HttpGet("{id}")] // This attribute defines the route for this action method with a parameter.
+        public JsonResult GetCity(int id)
+        {
             return new JsonResult(
-                new List<object>
-                {
-                    new {id = 1, Name = "Mechelen" },
-                    new {id = 2, Name = "Antwerpen" },
-                    new {id = 3, Name = "Brussels" }
-                });
+                CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id));
+
         }
     }
 }
