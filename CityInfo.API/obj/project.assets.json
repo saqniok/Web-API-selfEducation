@@ -453,9 +453,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\free2c0ma\\Desktop\\c_less\\1_1_less\\CityInfo\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
-      "projectName": "CityInfo.API",
-      "projectPath": "C:\\Users\\free2c0ma\\Desktop\\c_less\\1_1_less\\CityInfo\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+      "projectUniqueName": "C:\\Users\\free2c0ma\\Desktop\\c_less\\1_1_less\\CityInfo\\CityInfo\\CityInfo.API\\CharacterInfo.API.csproj",
+      "projectName": "CharacterInfo.API",
+      "projectPath": "C:\\Users\\free2c0ma\\Desktop\\c_less\\1_1_less\\CityInfo\\CityInfo\\CityInfo.API\\CharacterInfo.API.csproj",
       "packagesPath": "C:\\Users\\free2c0ma\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\free2c0ma\\Desktop\\c_less\\1_1_less\\CityInfo\\CityInfo\\CityInfo.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -490,7 +490,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -512,6 +513,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -520,7 +539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

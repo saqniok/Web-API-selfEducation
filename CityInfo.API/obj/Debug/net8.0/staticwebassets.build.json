@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "MNxdU726kbS2GEMM1U83h9Fi0G+KpyFDVMLRDezIZ9w=",
-  "Source": "CityInfo.API",
-  "BasePath": "_content/CityInfo.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"c2q8iZ2dEIT0xsLz6D4oSE8cVx/nALSvAiX5o77HvLk=","Source":"CharacterInfo.API","BasePath":"_content/CharacterInfo.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
