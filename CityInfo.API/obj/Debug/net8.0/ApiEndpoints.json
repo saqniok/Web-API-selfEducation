@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "CityInfo.API.Controllers.CharacterController",
+    "Method": "GetCities",
+    "RelativePath": "api/characters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CityInfo.API.Models.CharacterDto, CharacterInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "CityInfo.API.Controllers.DescriptionForCharacterController",
     "Method": "GetDescriptionsOfCharacter",
     "RelativePath": "api/characters/{characterId}/descriptionforcharacter",
@@ -15,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CityInfo.API.Models.DescriptionForCharacterDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CityInfo.API.Models.DescriptionForCharacterDto, CharacterInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -34,18 +54,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "charaterId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "descriptionForCharacterId",
+        "Name": "characterId",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "characterId",
-        "Type": "",
+        "Name": "descriptionForCharacterId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -63,28 +78,8 @@
   },
   {
     "ContainingType": "CityInfo.API.Controllers.CharacterController",
-    "Method": "GetCities",
-    "RelativePath": "api/cities",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CityInfo.API.Models.CharacterDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CityInfo.API.Controllers.CharacterController",
     "Method": "GetCity",
-    "RelativePath": "api/cities/{id}",
+    "RelativePath": "api/characters/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

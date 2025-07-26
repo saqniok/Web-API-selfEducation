@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"c2q8iZ2dEIT0xsLz6D4oSE8cVx/nALSvAiX5o77HvLk=","Source":"CharacterInfo.API","BasePath":"_content/CharacterInfo.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "lVGIqNz41bXYL+QJ+HF7aNEw/L2UIWWh/yD23rHfXZA=",
+  "Source": "CharacterInfo.API",
+  "BasePath": "_content/CharacterInfo.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

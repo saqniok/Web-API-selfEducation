@@ -8,7 +8,23 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.ReturnHttpNotAcceptable = true; // If the client requests a format that the server cannot produce, it will return a 406 Not Acceptable response.
+});
+
+builder.Services.AddProblemDetails(options =>
+{
+    // Add more Details in error messages
+    options.CustomizeProblemDetails = ctx =>
+    {
+        ctx.ProblemDetails.Extensions.Add("additionaInfo", 
+            "Additional information about the error.");    // add new parametr in error msg
+        ctx.ProblemDetails.Extensions.Add("server",
+            Environment.MachineName);                       // add name of device in error
+        
+    };
+});
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
