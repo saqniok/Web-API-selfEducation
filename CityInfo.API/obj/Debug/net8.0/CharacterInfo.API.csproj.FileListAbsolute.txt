@@ -31,3 +31,4 @@ C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\De
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CharacterInfo.API.props
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CharacterInfo.API.props
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\bin\Debug\net8.0\doom.pdf

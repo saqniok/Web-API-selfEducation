@@ -6,12 +6,14 @@
  */
 
 
+using Microsoft.AspNetCore.StaticFiles;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers(options =>
 {
-    options.ReturnHttpNotAcceptable = true; // If the client requests a format that the server cannot produce, it will return a 406 Not Acceptable response.
-});
+    options.ReturnHttpNotAcceptable = true;     // If the client requests a format that the server cannot produce, it will return a 406 Not Acceptable response.
+}).AddXmlDataContractSerializerFormatters();
 
 builder.Services.AddProblemDetails(options =>
 {
@@ -28,6 +30,7 @@ builder.Services.AddProblemDetails(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 var app = builder.Build();          // Creates the web application based on the settings from builder.
 
