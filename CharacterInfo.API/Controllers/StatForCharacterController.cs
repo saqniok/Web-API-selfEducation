@@ -11,7 +11,8 @@ namespace CityInfo.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<StatForCharacterDto>> GetStatsOfCharacter(int characterId)
         {
-            var character = CharactersDataStore.Current.Characters.FirstOrDefault(c => c.Id == characterId);
+            var character = CharactersDataStore.Current.Characters.FirstOrDefault(
+                c => c.Id == characterId);
 
             if (character == null)
                 return NotFound();
@@ -19,17 +20,21 @@ namespace CityInfo.API.Controllers
             return Ok(character.StatsForCharacter);
         }
 
-        [HttpGet("{statforcharacterid}", Name = "GetStatForCharacter")]
-        public ActionResult<StatForCharacterDto> GetStatForCharacter(int characterId, int statForCharacterId)
+        [HttpGet("{statForCharacterId}", Name = "GetStatForCharacter")]
+        public ActionResult<StatForCharacterDto> GetStatForCharacter(
+            int characterId,
+            int statForCharacterId)
         {
             // Validate the character ID before proceeding
-            var character = CharactersDataStore.Current.Characters.FirstOrDefault(c => c.Id == characterId);
+            var character = CharactersDataStore.Current.Characters.FirstOrDefault(
+                c => c.Id == characterId);
 
             if (character == null)
                 return NotFound();
 
             // Validate the description ID before proceeding
-            var statForCharacter = character.StatsForCharacter.FirstOrDefault(d => d.Id == statForCharacterId);
+            var statForCharacter = character.StatsForCharacter.FirstOrDefault(
+                d => d.Id == statForCharacterId);
 
             if (statForCharacter == null)
                 return NotFound();
@@ -39,7 +44,9 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<StatForCharacterDto> CreateStatForCharacter(int characterId, StatForCharacterCreationDto statForCharacter)
+        public ActionResult<StatForCharacterDto> CreateStatForCharacter(
+            int characterId, 
+            StatForCharacterCreationDto statForCharacter)
         {
 
             //ModelState is a dictionary containing both the state of the model
@@ -56,7 +63,8 @@ namespace CityInfo.API.Controllers
 
 
 
-            var character = CharactersDataStore.Current.Characters.FirstOrDefault(c => c.Id == characterId);
+            var character = CharactersDataStore.Current.Characters.FirstOrDefault(
+                c => c.Id == characterId);
 
             if (character == null)
                 return NotFound();
@@ -82,6 +90,42 @@ namespace CityInfo.API.Controllers
                 },
                 finalStatForCharacter);
 
+        }
+
+        // Add new action for Update Stats
+        [HttpPut("{statForCharacterId}")]
+        public ActionResult UpdateStatForCharacter(
+            int characterId, 
+            int statForCharacterId, 
+            StatForCharacterUpdateDto statForCharacter)
+        {
+            //Checking character
+            var character = CharactersDataStore.Current.Characters.FirstOrDefault(
+                c => c.Id == characterId);
+
+            if (character == null)
+                return NotFound();
+
+            // checking stat for character
+            var statForCharacterFromStore = character.StatsForCharacter
+                .FirstOrDefault(c => c.Id == statForCharacterId);
+
+            if (statForCharacterFromStore == null)
+                return NotFound();
+
+            /*
+             * According to the HTTP standard, `Put` should fully update a resource
+             * That means that the consumer of the API must provide values for all fields of the resource
+             * 
+             * If the consumer doesn't provide a value for a field, that field should
+             * be put to its default value. So we must update all fields.
+             */
+
+            statForCharacterFromStore.Name = statForCharacter.Name;
+            statForCharacterFromStore.Description = statForCharacter.Description;
+
+            // We return 204 No Content
+            return NoContent();
         }
     }
 }

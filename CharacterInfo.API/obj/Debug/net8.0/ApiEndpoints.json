@@ -85,7 +85,7 @@
   {
     "ContainingType": "CityInfo.API.Controllers.StatForCharacterController",
     "Method": "GetStatForCharacter",
-    "RelativePath": "api/characters/{characterId}/statforcharacter/{statforcharacterid}",
+    "RelativePath": "api/characters/{characterId}/statforcharacter/{statForCharacterId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -115,6 +115,32 @@
       }
     ],
     "EndpointName": "GetStatForCharacter"
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.StatForCharacterController",
+    "Method": "UpdateStatForCharacter",
+    "RelativePath": "api/characters/{characterId}/statforcharacter/{statForCharacterId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "characterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "statForCharacterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "statForCharacter",
+        "Type": "CharacterInfo.API.Models.StatForCharacterUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CityInfo.API.Controllers.CharacterController",
