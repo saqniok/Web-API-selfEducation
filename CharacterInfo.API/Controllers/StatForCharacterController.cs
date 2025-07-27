@@ -39,8 +39,23 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<StatForCharacterDto> CreateStatForCharacter(int characterId, [FromBody] StatForCharacterCreationDto statForCharacter)
+        public ActionResult<StatForCharacterDto> CreateStatForCharacter(int characterId, StatForCharacterCreationDto statForCharacter)
         {
+
+            //ModelState is a dictionary containing both the state of the model
+
+            /* 
+             * It's not necessary, because the API controller attribute
+             * Annotations are automatically checked during model binding and
+             * affect the ModelState dictionary and the API controller attribute ensures 
+             * that in case of an invalid ModelState a 400 BadRequest is returned with the validation
+             * 
+             * if (!ModelState.IsValid)
+             *      return BadRequest();
+             */
+
+
+
             var character = CharactersDataStore.Current.Characters.FirstOrDefault(c => c.Id == characterId);
 
             if (character == null)

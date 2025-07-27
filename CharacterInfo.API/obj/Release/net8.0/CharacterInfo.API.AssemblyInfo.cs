@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharacterInfo.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af37b06e337935c3c56db813980d332b83dd0d74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684e562e022b15a2233f6dd962fe4e6090d97b60")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharacterInfo.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharacterInfo.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
