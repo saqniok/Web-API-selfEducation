@@ -7,11 +7,11 @@
         public string? ClassOfCharacter { get; set; }
         public int CharacterLevel { get; set; }
 
-        public int NumberOfDescriptions
+        public int NumberOfStats
         {
-            get { return DescriptionsForCharacter.Count; }
+            get { return StatsForCharacter.Count; }
         }
-        public ICollection<DescriptionForCharacterDto> DescriptionsForCharacter { get; set; }
-        = new List<DescriptionForCharacterDto>();
+        public ICollection<StatForCharacterDto> StatsForCharacter { get; set; }
+        = new List<StatForCharacterDto>();
     }
 }

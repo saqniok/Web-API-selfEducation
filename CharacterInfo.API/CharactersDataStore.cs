@@ -16,10 +16,10 @@ namespace CityInfo.API
                     Id = 1,
                     NickName = "Bruce Cambell",
                     ClassOfCharacter = "RockStar",
-                    DescriptionsForCharacter = new List<DescriptionForCharacterDto>()
+                    StatsForCharacter = new List<StatForCharacterDto>()
                     {
-                        new DescriptionForCharacterDto() { Id = 1, Name = "Description 1", Description = "This is the first character" },
-                        new DescriptionForCharacterDto() { Id = 2, Name = "Description 2", Description = "This is the first rock star character" }
+                        new StatForCharacterDto() { Id = 1, Name = "Strength", Description = "This stat give power for melee attacks" },
+                        new StatForCharacterDto() { Id = 2, Name = "Stamina", Description = "This stat give ability for more attacks combo" }
                     }
                 },
                 new CharacterDto()
@@ -27,10 +27,10 @@ namespace CityInfo.API
                     Id = 2,
                     NickName = "Jhon Wick",
                     ClassOfCharacter = "Assasin",
-                    DescriptionsForCharacter = new List<DescriptionForCharacterDto>()
+                    StatsForCharacter = new List<StatForCharacterDto>()
                     {
-                        new DescriptionForCharacterDto() { Id = 1, Name = "Description 1", Description = "This is the second character" },
-                        new DescriptionForCharacterDto() { Id = 2, Name = "Description 2", Description = "This is the second assasin character" }
+                        new StatForCharacterDto() { Id = 1, Name = "Agility", Description = "This stat give more crticial chance for attack" },
+                        new StatForCharacterDto() { Id = 2, Name = "Vitality", Description = "This stat gives more Health Points" }
                     }
                 },
                 new CharacterDto()
@@ -38,10 +38,10 @@ namespace CityInfo.API
                     Id = 3,
                     NickName = "Harry Potter",
                     ClassOfCharacter = "Wizard",
-                    DescriptionsForCharacter = new List<DescriptionForCharacterDto>()
+                    StatsForCharacter = new List<StatForCharacterDto>()
                     {
-                        new DescriptionForCharacterDto() { Id = 1, Name = "Description 1", Description = "This is the third character" },
-                        new DescriptionForCharacterDto() { Id = 2, Name = "Description 2", Description = "This is the third wizard character" }
+                        new StatForCharacterDto() { Id = 1, Name = "Intelligence", Description = "This stat give power for magic spells" },
+                        new StatForCharacterDto() { Id = 2, Name = "Vitality", Description = "This stat gives more Health Points" }
                     }
                 }
             };

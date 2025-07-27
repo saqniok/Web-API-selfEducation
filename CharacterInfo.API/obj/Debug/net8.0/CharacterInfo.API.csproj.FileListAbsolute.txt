@@ -34,7 +34,6 @@ C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\obj\De
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CityInfo\CityInfo.API\bin\Debug\net8.0\doom.pdf
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\appsettings.json
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\CharacterInfo.API.staticwebassets.endpoints.json
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\CharacterInfo.API.exe
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\doom.pdf
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\bin\Debug\net8.0\CharacterInfo.API.deps.json
@@ -55,12 +54,15 @@ C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\CharacterInfo.API.sourcelink.json
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\scopedcss\bundle\CharacterInfo.API.styles.css
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\Characte.4639BCDB.Up2Date
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\CharacterInfo.API.dll
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\refint\CharacterInfo.API.dll
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\CharacterInfo.API.pdb
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\CharacterInfo.API.genruntimeconfig.cache
 C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\ref\CharacterInfo.API.dll
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.CharacterInfo.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CharacterInfo.API.props
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CharacterInfo.API.props
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CharacterInfo.API.props
+C:\Users\free2c0ma\Desktop\c_less\1_1_less\CityInfo\CharacterInfo\CharacterInfo.API\obj\Debug\net8.0\staticwebassets.pack.json
